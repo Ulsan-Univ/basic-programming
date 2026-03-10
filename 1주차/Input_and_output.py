@@ -11,11 +11,11 @@ age = 20
 city = "ulsan"
 print(s, age, city)
 
-x, y = input("2개의 값을 입력해주세요.").split()
+x, y = input("2개의 값을 입력해주세요.").split() # 입력 시 x y
 print("남자 수: ", x)
 print("여자 수: ", y)
 
-x, y, z = input("3개의 값을 입력하세요.").split()
+x, y, z = input("3개의 값을 입력하세요.").split(',') # 입력 시 x, y, z
 print("전체 학생 수: ", x)
 print("남학생 수: ", y)
-print("여학생 수: ",)
+print("여학생 수: ",) 
